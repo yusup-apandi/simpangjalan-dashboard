@@ -20,7 +20,7 @@ function generateColorPalette(count) {
     series: [2, 4, 5,9, 8, 6, 8],
     labels: ['APBD KAB. SUMEDANG', 'BANPROP', 'DANA ALOKASI KHUSUS (DAK)','DANA INSENTIF DAERAH (DID)','DANA INSENTIF DAERAH (DID)','-','PIK'],
     dataLabels: {
-      enabled: false
+      enabled: true
     },
     legend: {
       show: true,
@@ -159,9 +159,9 @@ chart.render();
     series: [4, 0],
     labels: ['Baik', 'Rusak'],
     dataLabels: {
-      enabled: false
+      enabled: true
     },
-   legend: {
+  legend: {
       show: true,
       showForSingleSeries: false,
       showForNullSeries: true,
