@@ -1,0 +1,45 @@
+/* Style  Card Statistic */
+.n-stats-card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+border-radius: 16px;
+background: #ffffff;
+}
+.n-stats-title{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+padding:8px;
+border-radius:16px;
+}
+.n-stats-title h6{
+    font-size: 16px;
+font-weight: 600;
+color:#18183D;
+}
+.n-stats-num{
+display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background-color:#272765;
+border-radius: 16px;
+}
+
+.n-stats-num span{
+    font-weight: 600;
+    color:#ffffff;
+}
+
+/* Style Card Chart */
+.n-chart-card{
+border-radius: 16px;
+background: #ffffff;
+padding: 16px;
+}
